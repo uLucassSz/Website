@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="index.html">
+            <img src="images/logo2.png" class="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Viajar para fora</a></li>
+            <li><a href="listing.html" class="active">Pacotes onlines</a></li>
+        </ul>
+        <a href="#" class="register-btn">Registre-se</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <span>245 visualizações</span>
+                </div>
+                <div>
+                    <p>Localização: São Francisco, California, Estados Unidos</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="images/house-1.png"></div>
+            <div><img src="images/house-2.png"></div>
+            <div><img src="images/house-3.png"></div>
+            <div><img src="images/house-4.png"></div>
+            <div><img src="images/house-5.png"></div>
+        </div>
+        <div class="small-details">
+            <h2>Unidade de aluguel hospedada por Lucas</h2>
+            <p>2 hóspedes &nbsp; 2 camas &nbsp; 1 cozinha &nbsp; 1 banheiro</p>
+            <h4>R$200,00 <span>/ dia</span></h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>Check-in</label>
+                <input type="text" placeholder="Adicione a data">
+            </div>
+            <div>
+                <label>Check-out</label>
+                <input type="text" placeholder="Adicione a data">
+            </div>
+            <div class="guest-field">
+                <label>Hóspedes</label>
+                <input type="number" placeholder="Adicione os hóspedes">
+            </div>
+            <button type="submit">Verificar disponibilidade</button>
+        </form>
+        <ul class="details-list">
+            <li><i class="fas fa-home"></i>Casa inteira
+                <span>Você terá o apartamento inteiro para você.</span>
+            </li>
+            <li><i class="fas fa-paint-brush"></i>Limpeza aprimorada
+                <span>Nossos funcionários de limpeza são os melhores de toda a região.</span>
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i>Ótima localização
+                <span>90% dos hóspedes anteriores, deram 5 estrelas pela localização.</span>
+            </li>
+            <li><i class="fas fa-heart"></i>Ótima experiência de check-in
+                <span>100% dos hóspedes anteriores, deram 5 estrelas pelo processo de check-in.</span>
+            </li>
+        </ul>
+
+        <hr class="line">
+        <p class="home-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta dui nec magna aliquam efficitur. Suspendisse a ornare libero. Fusce dolor erat, suscipit eget magna vel, consectetur mattis turpis. Phasellus aliquet metus nec scelerisque blandit. Nullam sit amet eros at eros viverra ornare. Suspendisse sit amet enim sit amet purus faucibus blandit. Nullam vel orci eu tellus semper eleifend nec in massa. Praesent ac nisl eget ex porttitor luctus. Cras pellentesque viverra justo, at rhoncus est maximus cursus. Pellentesque nisi libero, varius ac dictum vel, maximus et dui. Pellentesque volutpat nibh tellus, eu convallis ipsum tempor eu. Mauris eleifend gravida nunc, eget fringilla eros egestas vel.</p>
+        <hr class="line">
+        
+        <div class="map">
+            <h3>Localização no mapa</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42440.54042073395!2d-122.45272729311786!3d37.75693573162445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sS%C3%A3o%20Francisco%2C%20CA%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1647782722931!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <b>São Francisco, Califórnia, Estados Unidos</b>
+        </div>
+        <hr class="line">
+
+        <div class="host">
+            <img src="images/host.png">
+            <div>
+                <h2>Hospedado por Lucas</h2>
+                <p><span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </span>&nbsp; &nbsp; 245 visualizações &nbsp; &nbsp; Data de resposta: 100% &nbsp; &nbsp; Tempo de resposta: 60m</p>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contato</a>
+    </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https://facebook.com/"><i class="fab fa-facebook f"></i></a>
+            <a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https:/linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+            <hr>
+            <p>Todos os direitos reservados © 2022, Lucaix</p>
+        </div>
+    </div>
+<script>
+    var navBar = document.getElementById("navBar");
+    
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+</script>    
+
+</body>
+</html>
